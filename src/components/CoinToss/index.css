@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#f9d423, #e2a139, #a35200);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 13px;
+  min-width: 350px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #334155;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.total {
+  margin-top: 20px;
+  color: #334155;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+
+@media screen and (max-width: 768px) {
+  .total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.tossImage {
+  height: 150px;
+  width: 150px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #f9d423;
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 0px;
+  font-size: 12px;
+  color: #a35200;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
